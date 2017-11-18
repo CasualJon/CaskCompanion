@@ -1,0 +1,940 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC048E7B1F375CCB0000A9B6 /* TESTCCDB2.db in Resources */ = {isa = PBXBuildFile; fileRef = FC048E7A1F375CCB0000A9B6 /* TESTCCDB2.db */; };
+		FC048E7E1F38A79D0000A9B6 /* Lagavulin.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E7D1F38A79D0000A9B6 /* Lagavulin.wav */; };
+		FC048EA21F38ADB50000A9B6 /* Aberfeldy.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E7F1F38ADB50000A9B6 /* Aberfeldy.wav */; };
+		FC048EA31F38ADB50000A9B6 /* Aberlour.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E801F38ADB50000A9B6 /* Aberlour.wav */; };
+		FC048EA41F38ADB50000A9B6 /* Allt-a-Bhainne.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E811F38ADB50000A9B6 /* Allt-a-Bhainne.wav */; };
+		FC048EA51F38ADB50000A9B6 /* Ardmore.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E821F38ADB50000A9B6 /* Ardmore.wav */; };
+		FC048EA61F38ADB50000A9B6 /* Auchroisk.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E831F38ADB50000A9B6 /* Auchroisk.wav */; };
+		FC048EA71F38ADB50000A9B6 /* Aultmore.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E841F38ADB50000A9B6 /* Aultmore.wav */; };
+		FC048EA81F38ADB50000A9B6 /* Balblair.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E851F38ADB50000A9B6 /* Balblair.wav */; };
+		FC048EA91F38ADB50000A9B6 /* Balmenach.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E861F38ADB50000A9B6 /* Balmenach.wav */; };
+		FC048EAA1F38ADB50000A9B6 /* Bowmore.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E871F38ADB50000A9B6 /* Bowmore.wav */; };
+		FC048EAB1F38ADB50000A9B6 /* Bruichladdich.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E881F38ADB50000A9B6 /* Bruichladdich.wav */; };
+		FC048EAC1F38ADB50000A9B6 /* Bunnahabhain.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E891F38ADB50000A9B6 /* Bunnahabhain.wav */; };
+		FC048EAD1F38ADB50000A9B6 /* Caol_Ila.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E8A1F38ADB50000A9B6 /* Caol_Ila.wav */; };
+		FC048EAE1F38ADB50000A9B6 /* Caperdonich.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E8B1F38ADB50000A9B6 /* Caperdonich.wav */; };
+		FC048EAF1F38ADB50000A9B6 /* Cardhu.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E8C1F38ADB50000A9B6 /* Cardhu.wav */; };
+		FC048EB01F38ADB50000A9B6 /* Clynelish.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E8D1F38ADB50000A9B6 /* Clynelish.wav */; };
+		FC048EB11F38ADB50000A9B6 /* Coleburn.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E8E1F38ADB50000A9B6 /* Coleburn.wav */; };
+		FC048EB21F38ADB50000A9B6 /* Convalmore.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E8F1F38ADB50000A9B6 /* Convalmore.wav */; };
+		FC048EB31F38ADB50000A9B6 /* Cragganmore.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E901F38ADB50000A9B6 /* Cragganmore.wav */; };
+		FC048EB41F38ADB50000A9B6 /* Craigellachie.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E911F38ADB50000A9B6 /* Craigellachie.wav */; };
+		FC048EB51F38ADB50000A9B6 /* Dailuaine.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E921F38ADB50000A9B6 /* Dailuaine.wav */; };
+		FC048EB61F38ADB50000A9B6 /* Dallas_Dhu.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E931F38ADB50000A9B6 /* Dallas_Dhu.wav */; };
+		FC048EB71F38ADB50000A9B6 /* Dalmore.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E941F38ADB50000A9B6 /* Dalmore.wav */; };
+		FC048EB81F38ADB50000A9B6 /* Dalwhinnie.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E951F38ADB50000A9B6 /* Dalwhinnie.wav */; };
+		FC048EB91F38ADB50000A9B6 /* Deanston.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E961F38ADB50000A9B6 /* Deanston.wav */; };
+		FC048EBA1F38ADB50000A9B6 /* Dufftown.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E971F38ADB50000A9B6 /* Dufftown.wav */; };
+		FC048EBB1F38ADB50000A9B6 /* Edradour.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E981F38ADB50000A9B6 /* Edradour.wav */; };
+		FC048EBC1F38ADB50000A9B6 /* Fettercairn.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E991F38ADB50000A9B6 /* Fettercairn.wav */; };
+		FC048EBD1F38ADB50000A9B6 /* Glen_Deveron.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E9A1F38ADB50000A9B6 /* Glen_Deveron.wav */; };
+		FC048EBE1F38ADB50000A9B6 /* Glen_Elgin.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E9B1F38ADB50000A9B6 /* Glen_Elgin.wav */; };
+		FC048EBF1F38ADB50000A9B6 /* Glen_Garioch.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E9C1F38ADB50000A9B6 /* Glen_Garioch.wav */; };
+		FC048EC01F38ADB50000A9B6 /* Glen_Grant.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E9D1F38ADB50000A9B6 /* Glen_Grant.wav */; };
+		FC048EC11F38ADB50000A9B6 /* Glen_Keith.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E9E1F38ADB50000A9B6 /* Glen_Keith.wav */; };
+		FC048EC21F38ADB50000A9B6 /* Glen_Mhor.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048E9F1F38ADB50000A9B6 /* Glen_Mhor.wav */; };
+		FC048EC31F38ADB50000A9B6 /* Glen_Moray.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EA01F38ADB50000A9B6 /* Glen_Moray.wav */; };
+		FC048EC41F38ADB50000A9B6 /* Glen_Ord.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EA11F38ADB50000A9B6 /* Glen_Ord.wav */; };
+		FC048EF11F38ADDB0000A9B6 /* Glen_Rothes.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EC51F38ADDB0000A9B6 /* Glen_Rothes.wav */; };
+		FC048EF21F38ADDB0000A9B6 /* Glen_Scotia.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EC61F38ADDB0000A9B6 /* Glen_Scotia.wav */; };
+		FC048EF31F38ADDB0000A9B6 /* Glen_Spey.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EC71F38ADDB0000A9B6 /* Glen_Spey.wav */; };
+		FC048EF41F38ADDB0000A9B6 /* Glenallachie.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EC81F38ADDB0000A9B6 /* Glenallachie.wav */; };
+		FC048EF51F38ADDB0000A9B6 /* Glenburgie.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EC91F38ADDB0000A9B6 /* Glenburgie.wav */; };
+		FC048EF61F38ADDB0000A9B6 /* Glencadam.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048ECA1F38ADDB0000A9B6 /* Glencadam.wav */; };
+		FC048EF71F38ADDB0000A9B6 /* Glendronach.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048ECB1F38ADDB0000A9B6 /* Glendronach.wav */; };
+		FC048EF81F38ADDB0000A9B6 /* Glendullan.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048ECC1F38ADDB0000A9B6 /* Glendullan.wav */; };
+		FC048EF91F38ADDB0000A9B6 /* Glenesk.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048ECD1F38ADDB0000A9B6 /* Glenesk.wav */; };
+		FC048EFA1F38ADDB0000A9B6 /* Glenfarclas.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048ECE1F38ADDB0000A9B6 /* Glenfarclas.wav */; };
+		FC048EFB1F38ADDB0000A9B6 /* Glenfiddich.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048ECF1F38ADDB0000A9B6 /* Glenfiddich.wav */; };
+		FC048EFC1F38ADDB0000A9B6 /* Glenglassaugh.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048ED01F38ADDB0000A9B6 /* Glenglassaugh.wav */; };
+		FC048EFD1F38ADDB0000A9B6 /* Glengoyne.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048ED11F38ADDB0000A9B6 /* Glengoyne.wav */; };
+		FC048EFE1F38ADDB0000A9B6 /* Glenkinchie.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048ED21F38ADDB0000A9B6 /* Glenkinchie.wav */; };
+		FC048EFF1F38ADDB0000A9B6 /* Glenlivet.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048ED31F38ADDB0000A9B6 /* Glenlivet.wav */; };
+		FC048F001F38ADDB0000A9B6 /* Glenlochy.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048ED41F38ADDB0000A9B6 /* Glenlochy.wav */; };
+		FC048F011F38ADDB0000A9B6 /* Glenlossie.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048ED51F38ADDB0000A9B6 /* Glenlossie.wav */; };
+		FC048F021F38ADDB0000A9B6 /* Glenmorangie.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048ED61F38ADDB0000A9B6 /* Glenmorangie.wav */; };
+		FC048F031F38ADDB0000A9B6 /* Glentauchers.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048ED71F38ADDB0000A9B6 /* Glentauchers.wav */; };
+		FC048F041F38ADDB0000A9B6 /* Glenturret.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048ED81F38ADDB0000A9B6 /* Glenturret.wav */; };
+		FC048F051F38ADDB0000A9B6 /* Glenugie.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048ED91F38ADDB0000A9B6 /* Glenugie.wav */; };
+		FC048F061F38ADDB0000A9B6 /* Glenury_Royal.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EDA1F38ADDB0000A9B6 /* Glenury_Royal.wav */; };
+		FC048F071F38ADDB0000A9B6 /* Highland_Park.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EDB1F38ADDB0000A9B6 /* Highland_Park.wav */; };
+		FC048F081F38ADDB0000A9B6 /* Imperial.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EDC1F38ADDB0000A9B6 /* Imperial.wav */; };
+		FC048F091F38ADDB0000A9B6 /* Inchgower.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EDD1F38ADDB0000A9B6 /* Inchgower.wav */; };
+		FC048F0A1F38ADDB0000A9B6 /* Jura.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EDE1F38ADDB0000A9B6 /* Jura.wav */; };
+		FC048F0B1F38ADDB0000A9B6 /* Kininvie.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EDF1F38ADDB0000A9B6 /* Kininvie.wav */; };
+		FC048F0C1F38ADDB0000A9B6 /* Knockando.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EE01F38ADDB0000A9B6 /* Knockando.wav */; };
+		FC048F0D1F38ADDB0000A9B6 /* Knockdhu.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EE11F38ADDB0000A9B6 /* Knockdhu.wav */; };
+		FC048F0E1F38ADDB0000A9B6 /* Laphroaig.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EE21F38ADDB0000A9B6 /* Laphroaig.wav */; };
+		FC048F0F1F38ADDB0000A9B6 /* Ledaig.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EE31F38ADDB0000A9B6 /* Ledaig.wav */; };
+		FC048F101F38ADDB0000A9B6 /* Linkwood.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EE41F38ADDB0000A9B6 /* Linkwood.wav */; };
+		FC048F111F38ADDB0000A9B6 /* Littlemill.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EE51F38ADDB0000A9B6 /* Littlemill.wav */; };
+		FC048F121F38ADDB0000A9B6 /* Lochside.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EE61F38ADDB0000A9B6 /* Lochside.wav */; };
+		FC048F131F38ADDB0000A9B6 /* Longmorn.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EE71F38ADDB0000A9B6 /* Longmorn.wav */; };
+		FC048F141F38ADDB0000A9B6 /* Macallan.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EE81F38ADDB0000A9B6 /* Macallan.wav */; };
+		FC048F151F38ADDB0000A9B6 /* Mannochmore.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EE91F38ADDB0000A9B6 /* Mannochmore.wav */; };
+		FC048F161F38ADDB0000A9B6 /* Millburn.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EEA1F38ADDB0000A9B6 /* Millburn.wav */; };
+		FC048F171F38ADDB0000A9B6 /* Miltonduff.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EEB1F38ADDB0000A9B6 /* Miltonduff.wav */; };
+		FC048F181F38ADDB0000A9B6 /* Mortlach.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EEC1F38ADDB0000A9B6 /* Mortlach.wav */; };
+		FC048F191F38ADDB0000A9B6 /* North_Port.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EED1F38ADDB0000A9B6 /* North_Port.wav */; };
+		FC048F1A1F38ADDB0000A9B6 /* Oban.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EEE1F38ADDB0000A9B6 /* Oban.wav */; };
+		FC048F1B1F38ADDB0000A9B6 /* Pittyvaich.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EEF1F38ADDB0000A9B6 /* Pittyvaich.wav */; };
+		FC048F1C1F38ADDB0000A9B6 /* Port_Ellen.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048EF01F38ADDB0000A9B6 /* Port_Ellen.wav */; };
+		FC048F2F1F38ADF10000A9B6 /* Pulteney.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F1D1F38ADF10000A9B6 /* Pulteney.wav */; };
+		FC048F301F38ADF10000A9B6 /* Rosebank.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F1E1F38ADF10000A9B6 /* Rosebank.wav */; };
+		FC048F311F38ADF10000A9B6 /* Royal_Brackla.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F1F1F38ADF10000A9B6 /* Royal_Brackla.wav */; };
+		FC048F321F38ADF10000A9B6 /* Royal_Lochnagar.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F201F38ADF10000A9B6 /* Royal_Lochnagar.wav */; };
+		FC048F331F38ADF10000A9B6 /* Scapa.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F211F38ADF10000A9B6 /* Scapa.wav */; };
+		FC048F341F38ADF10000A9B6 /* Speyburn.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F221F38ADF10000A9B6 /* Speyburn.wav */; };
+		FC048F351F38ADF10000A9B6 /* Springbank.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F231F38ADF10000A9B6 /* Springbank.wav */; };
+		FC048F361F38ADF10000A9B6 /* St_Magdalene.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F241F38ADF10000A9B6 /* St_Magdalene.wav */; };
+		FC048F371F38ADF10000A9B6 /* Strathisla.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F251F38ADF10000A9B6 /* Strathisla.wav */; };
+		FC048F381F38ADF10000A9B6 /* Strathmill.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F261F38ADF10000A9B6 /* Strathmill.wav */; };
+		FC048F391F38ADF10000A9B6 /* Talisker.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F271F38ADF10000A9B6 /* Talisker.wav */; };
+		FC048F3A1F38ADF10000A9B6 /* Tamdhu.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F281F38ADF10000A9B6 /* Tamdhu.wav */; };
+		FC048F3B1F38ADF10000A9B6 /* Tamnavulin.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F291F38ADF10000A9B6 /* Tamnavulin.wav */; };
+		FC048F3C1F38ADF10000A9B6 /* Teaninich.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F2A1F38ADF10000A9B6 /* Teaninich.wav */; };
+		FC048F3D1F38ADF10000A9B6 /* Tomatin.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F2B1F38ADF10000A9B6 /* Tomatin.wav */; };
+		FC048F3E1F38ADF10000A9B6 /* Tomintoul.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F2C1F38ADF10000A9B6 /* Tomintoul.wav */; };
+		FC048F3F1F38ADF10000A9B6 /* Tormore.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F2D1F38ADF10000A9B6 /* Tormore.wav */; };
+		FC048F401F38ADF10000A9B6 /* Tullibardine.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC048F2E1F38ADF10000A9B6 /* Tullibardine.wav */; };
+		FC048F421F38CCF20000A9B6 /* SearchByRegionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC048F411F38CCF20000A9B6 /* SearchByRegionVC.swift */; };
+		FC048F491F38F7FC0000A9B6 /* MyStatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC048F481F38F7FC0000A9B6 /* MyStatsVC.swift */; };
+		FC048F4B1F39431B0000A9B6 /* DistillerMappingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC048F4A1F39431B0000A9B6 /* DistillerMappingVC.swift */; };
+		FC048F4D1F3A3BB90000A9B6 /* ScotchesFromDistillerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC048F4C1F3A3BB90000A9B6 /* ScotchesFromDistillerVC.swift */; };
+		FC048F4F1F3A585E0000A9B6 /* RecommendationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC048F4E1F3A585E0000A9B6 /* RecommendationsVC.swift */; };
+		FC45A2D41F2F919F00898C6D /* AboutTheColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC45A2D31F2F919F00898C6D /* AboutTheColorVC.swift */; };
+		FC45A2DA1F310D7F00898C6D /* FindRateScotchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC45A2D91F310D7F00898C6D /* FindRateScotchVC.swift */; };
+		FC45A2DC1F311FD900898C6D /* SelectScotchFromVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC45A2DB1F311FD900898C6D /* SelectScotchFromVC.swift */; };
+		FC5E02761F23BCDE00FA9D61 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5E02751F23BCDE00FA9D61 /* libsqlite3.tbd */; };
+		FC5E02851F23D96500FA9D61 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5E027B1F23D96500FA9D61 /* FMDatabase.m */; };
+		FC5E02861F23D96500FA9D61 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5E027D1F23D96500FA9D61 /* FMDatabaseAdditions.m */; };
+		FC5E02871F23D96500FA9D61 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5E027F1F23D96500FA9D61 /* FMDatabasePool.m */; };
+		FC5E02881F23D96500FA9D61 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5E02811F23D96500FA9D61 /* FMDatabaseQueue.m */; };
+		FC5E02891F23D96500FA9D61 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5E02841F23D96500FA9D61 /* FMResultSet.m */; };
+		FC5E028B1F23DA7E00FA9D61 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E028A1F23DA7E00FA9D61 /* DBManager.swift */; };
+		FC5E028D1F26502500FA9D61 /* GlossaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E028C1F26502500FA9D61 /* GlossaryVC.swift */; };
+		FC5E028F1F265E7100FA9D61 /* Whisky101VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E028E1F265E7100FA9D61 /* Whisky101VC.swift */; };
+		FC5E02A01F27C59500FA9D61 /* GlossaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E029F1F27C59500FA9D61 /* GlossaryCell.swift */; };
+		FC7227C51F338F00008094F3 /* ScotchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7227C41F338F00008094F3 /* ScotchCell.swift */; };
+		FC7227C91F338F5B008094F3 /* DistilleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7227C81F338F5B008094F3 /* DistilleryCell.swift */; };
+		FC7227CB1F338F78008094F3 /* OwnerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7227CA1F338F78008094F3 /* OwnerCell.swift */; };
+		FC7227CD1F33C55B008094F3 /* SingleScotchDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7227CC1F33C55B008094F3 /* SingleScotchDetail.swift */; };
+		FC7227CF1F33C5A5008094F3 /* SingleDistillerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7227CE1F33C5A5008094F3 /* SingleDistillerDetail.swift */; };
+		FC7227D11F33C5FA008094F3 /* SingleOwnerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7227D01F33C5FA008094F3 /* SingleOwnerDetail.swift */; };
+		FCACC2051F1A9F6100D4C6C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACC2041F1A9F6100D4C6C8 /* AppDelegate.swift */; };
+		FCACC2071F1A9F6100D4C6C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACC2061F1A9F6100D4C6C8 /* ViewController.swift */; };
+		FCACC20A1F1A9F6100D4C6C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCACC2081F1A9F6100D4C6C8 /* Main.storyboard */; };
+		FCACC20C1F1A9F6100D4C6C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCACC20B1F1A9F6100D4C6C8 /* Assets.xcassets */; };
+		FCACC20F1F1A9F6100D4C6C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCACC20D1F1A9F6100D4C6C8 /* LaunchScreen.storyboard */; };
+		FCF047051F2BE34C002DB756 /* WhiskeyOrWhiskeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF047041F2BE34C002DB756 /* WhiskeyOrWhiskeyVC.swift */; };
+		FCF047071F2BE43E002DB756 /* WhatIsSingleMaltVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF047061F2BE43E002DB756 /* WhatIsSingleMaltVC.swift */; };
+		FCF047091F2CFB05002DB756 /* MakingSingleMaltVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF047081F2CFB05002DB756 /* MakingSingleMaltVC.swift */; };
+		FCF0470B1F2D315C002DB756 /* ScotchRegionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0470A1F2D315C002DB756 /* ScotchRegionsVC.swift */; };
+		FCFA7E151F3532C2004F818C /* MyScotchRatingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA7E141F3532C2004F818C /* MyScotchRatingsVC.swift */; };
+		FCFA7E171F354484004F818C /* DateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA7E161F354484004F818C /* DateHandler.swift */; };
+		FCFA7E191F354677004F818C /* MyScotchRatingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA7E181F354677004F818C /* MyScotchRatingCell.swift */; };
+		FCFA7E1B1F365094004F818C /* RateScotchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA7E1A1F365094004F818C /* RateScotchVC.swift */; };
+		FCFE591C1F1D19AE00D331A1 /* WhiskyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE591B1F1D19AE00D331A1 /* WhiskyModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC048E7A1F375CCB0000A9B6 /* TESTCCDB2.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = TESTCCDB2.db; sourceTree = "<group>"; };
+		FC048E7D1F38A79D0000A9B6 /* Lagavulin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Lagavulin.wav; sourceTree = "<group>"; };
+		FC048E7F1F38ADB50000A9B6 /* Aberfeldy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Aberfeldy.wav; sourceTree = "<group>"; };
+		FC048E801F38ADB50000A9B6 /* Aberlour.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Aberlour.wav; sourceTree = "<group>"; };
+		FC048E811F38ADB50000A9B6 /* Allt-a-Bhainne.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Allt-a-Bhainne.wav"; sourceTree = "<group>"; };
+		FC048E821F38ADB50000A9B6 /* Ardmore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ardmore.wav; sourceTree = "<group>"; };
+		FC048E831F38ADB50000A9B6 /* Auchroisk.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Auchroisk.wav; sourceTree = "<group>"; };
+		FC048E841F38ADB50000A9B6 /* Aultmore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Aultmore.wav; sourceTree = "<group>"; };
+		FC048E851F38ADB50000A9B6 /* Balblair.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Balblair.wav; sourceTree = "<group>"; };
+		FC048E861F38ADB50000A9B6 /* Balmenach.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Balmenach.wav; sourceTree = "<group>"; };
+		FC048E871F38ADB50000A9B6 /* Bowmore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bowmore.wav; sourceTree = "<group>"; };
+		FC048E881F38ADB50000A9B6 /* Bruichladdich.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bruichladdich.wav; sourceTree = "<group>"; };
+		FC048E891F38ADB50000A9B6 /* Bunnahabhain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bunnahabhain.wav; sourceTree = "<group>"; };
+		FC048E8A1F38ADB50000A9B6 /* Caol_Ila.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Caol_Ila.wav; sourceTree = "<group>"; };
+		FC048E8B1F38ADB50000A9B6 /* Caperdonich.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Caperdonich.wav; sourceTree = "<group>"; };
+		FC048E8C1F38ADB50000A9B6 /* Cardhu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cardhu.wav; sourceTree = "<group>"; };
+		FC048E8D1F38ADB50000A9B6 /* Clynelish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Clynelish.wav; sourceTree = "<group>"; };
+		FC048E8E1F38ADB50000A9B6 /* Coleburn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Coleburn.wav; sourceTree = "<group>"; };
+		FC048E8F1F38ADB50000A9B6 /* Convalmore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Convalmore.wav; sourceTree = "<group>"; };
+		FC048E901F38ADB50000A9B6 /* Cragganmore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cragganmore.wav; sourceTree = "<group>"; };
+		FC048E911F38ADB50000A9B6 /* Craigellachie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Craigellachie.wav; sourceTree = "<group>"; };
+		FC048E921F38ADB50000A9B6 /* Dailuaine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dailuaine.wav; sourceTree = "<group>"; };
+		FC048E931F38ADB50000A9B6 /* Dallas_Dhu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dallas_Dhu.wav; sourceTree = "<group>"; };
+		FC048E941F38ADB50000A9B6 /* Dalmore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dalmore.wav; sourceTree = "<group>"; };
+		FC048E951F38ADB50000A9B6 /* Dalwhinnie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dalwhinnie.wav; sourceTree = "<group>"; };
+		FC048E961F38ADB50000A9B6 /* Deanston.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Deanston.wav; sourceTree = "<group>"; };
+		FC048E971F38ADB50000A9B6 /* Dufftown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dufftown.wav; sourceTree = "<group>"; };
+		FC048E981F38ADB50000A9B6 /* Edradour.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Edradour.wav; sourceTree = "<group>"; };
+		FC048E991F38ADB50000A9B6 /* Fettercairn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Fettercairn.wav; sourceTree = "<group>"; };
+		FC048E9A1F38ADB50000A9B6 /* Glen_Deveron.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glen_Deveron.wav; sourceTree = "<group>"; };
+		FC048E9B1F38ADB50000A9B6 /* Glen_Elgin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glen_Elgin.wav; sourceTree = "<group>"; };
+		FC048E9C1F38ADB50000A9B6 /* Glen_Garioch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glen_Garioch.wav; sourceTree = "<group>"; };
+		FC048E9D1F38ADB50000A9B6 /* Glen_Grant.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glen_Grant.wav; sourceTree = "<group>"; };
+		FC048E9E1F38ADB50000A9B6 /* Glen_Keith.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glen_Keith.wav; sourceTree = "<group>"; };
+		FC048E9F1F38ADB50000A9B6 /* Glen_Mhor.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glen_Mhor.wav; sourceTree = "<group>"; };
+		FC048EA01F38ADB50000A9B6 /* Glen_Moray.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glen_Moray.wav; sourceTree = "<group>"; };
+		FC048EA11F38ADB50000A9B6 /* Glen_Ord.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glen_Ord.wav; sourceTree = "<group>"; };
+		FC048EC51F38ADDB0000A9B6 /* Glen_Rothes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glen_Rothes.wav; sourceTree = "<group>"; };
+		FC048EC61F38ADDB0000A9B6 /* Glen_Scotia.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glen_Scotia.wav; sourceTree = "<group>"; };
+		FC048EC71F38ADDB0000A9B6 /* Glen_Spey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glen_Spey.wav; sourceTree = "<group>"; };
+		FC048EC81F38ADDB0000A9B6 /* Glenallachie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glenallachie.wav; sourceTree = "<group>"; };
+		FC048EC91F38ADDB0000A9B6 /* Glenburgie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glenburgie.wav; sourceTree = "<group>"; };
+		FC048ECA1F38ADDB0000A9B6 /* Glencadam.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glencadam.wav; sourceTree = "<group>"; };
+		FC048ECB1F38ADDB0000A9B6 /* Glendronach.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glendronach.wav; sourceTree = "<group>"; };
+		FC048ECC1F38ADDB0000A9B6 /* Glendullan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glendullan.wav; sourceTree = "<group>"; };
+		FC048ECD1F38ADDB0000A9B6 /* Glenesk.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glenesk.wav; sourceTree = "<group>"; };
+		FC048ECE1F38ADDB0000A9B6 /* Glenfarclas.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glenfarclas.wav; sourceTree = "<group>"; };
+		FC048ECF1F38ADDB0000A9B6 /* Glenfiddich.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glenfiddich.wav; sourceTree = "<group>"; };
+		FC048ED01F38ADDB0000A9B6 /* Glenglassaugh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glenglassaugh.wav; sourceTree = "<group>"; };
+		FC048ED11F38ADDB0000A9B6 /* Glengoyne.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glengoyne.wav; sourceTree = "<group>"; };
+		FC048ED21F38ADDB0000A9B6 /* Glenkinchie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glenkinchie.wav; sourceTree = "<group>"; };
+		FC048ED31F38ADDB0000A9B6 /* Glenlivet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glenlivet.wav; sourceTree = "<group>"; };
+		FC048ED41F38ADDB0000A9B6 /* Glenlochy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glenlochy.wav; sourceTree = "<group>"; };
+		FC048ED51F38ADDB0000A9B6 /* Glenlossie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glenlossie.wav; sourceTree = "<group>"; };
+		FC048ED61F38ADDB0000A9B6 /* Glenmorangie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glenmorangie.wav; sourceTree = "<group>"; };
+		FC048ED71F38ADDB0000A9B6 /* Glentauchers.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glentauchers.wav; sourceTree = "<group>"; };
+		FC048ED81F38ADDB0000A9B6 /* Glenturret.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glenturret.wav; sourceTree = "<group>"; };
+		FC048ED91F38ADDB0000A9B6 /* Glenugie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glenugie.wav; sourceTree = "<group>"; };
+		FC048EDA1F38ADDB0000A9B6 /* Glenury_Royal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glenury_Royal.wav; sourceTree = "<group>"; };
+		FC048EDB1F38ADDB0000A9B6 /* Highland_Park.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Highland_Park.wav; sourceTree = "<group>"; };
+		FC048EDC1F38ADDB0000A9B6 /* Imperial.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Imperial.wav; sourceTree = "<group>"; };
+		FC048EDD1F38ADDB0000A9B6 /* Inchgower.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Inchgower.wav; sourceTree = "<group>"; };
+		FC048EDE1F38ADDB0000A9B6 /* Jura.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Jura.wav; sourceTree = "<group>"; };
+		FC048EDF1F38ADDB0000A9B6 /* Kininvie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kininvie.wav; sourceTree = "<group>"; };
+		FC048EE01F38ADDB0000A9B6 /* Knockando.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Knockando.wav; sourceTree = "<group>"; };
+		FC048EE11F38ADDB0000A9B6 /* Knockdhu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Knockdhu.wav; sourceTree = "<group>"; };
+		FC048EE21F38ADDB0000A9B6 /* Laphroaig.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Laphroaig.wav; sourceTree = "<group>"; };
+		FC048EE31F38ADDB0000A9B6 /* Ledaig.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ledaig.wav; sourceTree = "<group>"; };
+		FC048EE41F38ADDB0000A9B6 /* Linkwood.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Linkwood.wav; sourceTree = "<group>"; };
+		FC048EE51F38ADDB0000A9B6 /* Littlemill.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Littlemill.wav; sourceTree = "<group>"; };
+		FC048EE61F38ADDB0000A9B6 /* Lochside.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Lochside.wav; sourceTree = "<group>"; };
+		FC048EE71F38ADDB0000A9B6 /* Longmorn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Longmorn.wav; sourceTree = "<group>"; };
+		FC048EE81F38ADDB0000A9B6 /* Macallan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Macallan.wav; sourceTree = "<group>"; };
+		FC048EE91F38ADDB0000A9B6 /* Mannochmore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Mannochmore.wav; sourceTree = "<group>"; };
+		FC048EEA1F38ADDB0000A9B6 /* Millburn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Millburn.wav; sourceTree = "<group>"; };
+		FC048EEB1F38ADDB0000A9B6 /* Miltonduff.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Miltonduff.wav; sourceTree = "<group>"; };
+		FC048EEC1F38ADDB0000A9B6 /* Mortlach.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Mortlach.wav; sourceTree = "<group>"; };
+		FC048EED1F38ADDB0000A9B6 /* North_Port.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = North_Port.wav; sourceTree = "<group>"; };
+		FC048EEE1F38ADDB0000A9B6 /* Oban.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Oban.wav; sourceTree = "<group>"; };
+		FC048EEF1F38ADDB0000A9B6 /* Pittyvaich.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pittyvaich.wav; sourceTree = "<group>"; };
+		FC048EF01F38ADDB0000A9B6 /* Port_Ellen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Port_Ellen.wav; sourceTree = "<group>"; };
+		FC048F1D1F38ADF10000A9B6 /* Pulteney.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pulteney.wav; sourceTree = "<group>"; };
+		FC048F1E1F38ADF10000A9B6 /* Rosebank.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rosebank.wav; sourceTree = "<group>"; };
+		FC048F1F1F38ADF10000A9B6 /* Royal_Brackla.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Royal_Brackla.wav; sourceTree = "<group>"; };
+		FC048F201F38ADF10000A9B6 /* Royal_Lochnagar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Royal_Lochnagar.wav; sourceTree = "<group>"; };
+		FC048F211F38ADF10000A9B6 /* Scapa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Scapa.wav; sourceTree = "<group>"; };
+		FC048F221F38ADF10000A9B6 /* Speyburn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Speyburn.wav; sourceTree = "<group>"; };
+		FC048F231F38ADF10000A9B6 /* Springbank.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Springbank.wav; sourceTree = "<group>"; };
+		FC048F241F38ADF10000A9B6 /* St_Magdalene.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = St_Magdalene.wav; sourceTree = "<group>"; };
+		FC048F251F38ADF10000A9B6 /* Strathisla.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Strathisla.wav; sourceTree = "<group>"; };
+		FC048F261F38ADF10000A9B6 /* Strathmill.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Strathmill.wav; sourceTree = "<group>"; };
+		FC048F271F38ADF10000A9B6 /* Talisker.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Talisker.wav; sourceTree = "<group>"; };
+		FC048F281F38ADF10000A9B6 /* Tamdhu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tamdhu.wav; sourceTree = "<group>"; };
+		FC048F291F38ADF10000A9B6 /* Tamnavulin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tamnavulin.wav; sourceTree = "<group>"; };
+		FC048F2A1F38ADF10000A9B6 /* Teaninich.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Teaninich.wav; sourceTree = "<group>"; };
+		FC048F2B1F38ADF10000A9B6 /* Tomatin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tomatin.wav; sourceTree = "<group>"; };
+		FC048F2C1F38ADF10000A9B6 /* Tomintoul.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tomintoul.wav; sourceTree = "<group>"; };
+		FC048F2D1F38ADF10000A9B6 /* Tormore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tormore.wav; sourceTree = "<group>"; };
+		FC048F2E1F38ADF10000A9B6 /* Tullibardine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tullibardine.wav; sourceTree = "<group>"; };
+		FC048F411F38CCF20000A9B6 /* SearchByRegionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchByRegionVC.swift; sourceTree = "<group>"; };
+		FC048F481F38F7FC0000A9B6 /* MyStatsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStatsVC.swift; sourceTree = "<group>"; };
+		FC048F4A1F39431B0000A9B6 /* DistillerMappingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistillerMappingVC.swift; sourceTree = "<group>"; };
+		FC048F4C1F3A3BB90000A9B6 /* ScotchesFromDistillerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScotchesFromDistillerVC.swift; sourceTree = "<group>"; };
+		FC048F4E1F3A585E0000A9B6 /* RecommendationsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationsVC.swift; sourceTree = "<group>"; };
+		FC45A2D31F2F919F00898C6D /* AboutTheColorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTheColorVC.swift; sourceTree = "<group>"; };
+		FC45A2D91F310D7F00898C6D /* FindRateScotchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindRateScotchVC.swift; sourceTree = "<group>"; };
+		FC45A2DB1F311FD900898C6D /* SelectScotchFromVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectScotchFromVC.swift; sourceTree = "<group>"; };
+		FC5E02751F23BCDE00FA9D61 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FC5E02791F23D93C00FA9D61 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabase.h"; sourceTree = "<group>"; };
+		FC5E027A1F23D96500FA9D61 /* CaskCompanion1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CaskCompanion1-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC5E027B1F23D96500FA9D61 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabase.m"; sourceTree = "<group>"; };
+		FC5E027C1F23D96500FA9D61 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabaseAdditions.h"; sourceTree = "<group>"; };
+		FC5E027D1F23D96500FA9D61 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabaseAdditions.m"; sourceTree = "<group>"; };
+		FC5E027E1F23D96500FA9D61 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabasePool.h"; sourceTree = "<group>"; };
+		FC5E027F1F23D96500FA9D61 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabasePool.m"; sourceTree = "<group>"; };
+		FC5E02801F23D96500FA9D61 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabaseQueue.h"; sourceTree = "<group>"; };
+		FC5E02811F23D96500FA9D61 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabaseQueue.m"; sourceTree = "<group>"; };
+		FC5E02821F23D96500FA9D61 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = "../../../Downloads/fmdb-master/src/fmdb/FMDB.h"; sourceTree = "<group>"; };
+		FC5E02831F23D96500FA9D61 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "../../../Downloads/fmdb-master/src/fmdb/FMResultSet.h"; sourceTree = "<group>"; };
+		FC5E02841F23D96500FA9D61 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "../../../Downloads/fmdb-master/src/fmdb/FMResultSet.m"; sourceTree = "<group>"; };
+		FC5E028A1F23DA7E00FA9D61 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		FC5E028C1F26502500FA9D61 /* GlossaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryVC.swift; sourceTree = "<group>"; };
+		FC5E028E1F265E7100FA9D61 /* Whisky101VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Whisky101VC.swift; sourceTree = "<group>"; };
+		FC5E029F1F27C59500FA9D61 /* GlossaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryCell.swift; sourceTree = "<group>"; };
+		FC7227C41F338F00008094F3 /* ScotchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScotchCell.swift; sourceTree = "<group>"; };
+		FC7227C81F338F5B008094F3 /* DistilleryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistilleryCell.swift; sourceTree = "<group>"; };
+		FC7227CA1F338F78008094F3 /* OwnerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwnerCell.swift; sourceTree = "<group>"; };
+		FC7227CC1F33C55B008094F3 /* SingleScotchDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleScotchDetail.swift; sourceTree = "<group>"; };
+		FC7227CE1F33C5A5008094F3 /* SingleDistillerDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleDistillerDetail.swift; sourceTree = "<group>"; };
+		FC7227D01F33C5FA008094F3 /* SingleOwnerDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleOwnerDetail.swift; sourceTree = "<group>"; };
+		FCACC2011F1A9F6100D4C6C8 /* CaskCompanion1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaskCompanion1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCACC2041F1A9F6100D4C6C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCACC2061F1A9F6100D4C6C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCACC2091F1A9F6100D4C6C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCACC20B1F1A9F6100D4C6C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCACC20E1F1A9F6100D4C6C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCACC2101F1A9F6100D4C6C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF047041F2BE34C002DB756 /* WhiskeyOrWhiskeyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiskeyOrWhiskeyVC.swift; sourceTree = "<group>"; };
+		FCF047061F2BE43E002DB756 /* WhatIsSingleMaltVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatIsSingleMaltVC.swift; sourceTree = "<group>"; };
+		FCF047081F2CFB05002DB756 /* MakingSingleMaltVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakingSingleMaltVC.swift; sourceTree = "<group>"; };
+		FCF0470A1F2D315C002DB756 /* ScotchRegionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScotchRegionsVC.swift; sourceTree = "<group>"; };
+		FCFA7E141F3532C2004F818C /* MyScotchRatingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyScotchRatingsVC.swift; sourceTree = "<group>"; };
+		FCFA7E161F354484004F818C /* DateHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHandler.swift; sourceTree = "<group>"; };
+		FCFA7E181F354677004F818C /* MyScotchRatingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyScotchRatingCell.swift; sourceTree = "<group>"; };
+		FCFA7E1A1F365094004F818C /* RateScotchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateScotchVC.swift; sourceTree = "<group>"; };
+		FCFE591B1F1D19AE00D331A1 /* WhiskyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiskyModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCACC1FE1F1A9F6100D4C6C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5E02761F23BCDE00FA9D61 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC048E7C1F38A7750000A9B6 /* DistillerAudio */ = {
+			isa = PBXGroup;
+			children = (
+				FC048F1D1F38ADF10000A9B6 /* Pulteney.wav */,
+				FC048F1E1F38ADF10000A9B6 /* Rosebank.wav */,
+				FC048F1F1F38ADF10000A9B6 /* Royal_Brackla.wav */,
+				FC048F201F38ADF10000A9B6 /* Royal_Lochnagar.wav */,
+				FC048F211F38ADF10000A9B6 /* Scapa.wav */,
+				FC048F221F38ADF10000A9B6 /* Speyburn.wav */,
+				FC048F231F38ADF10000A9B6 /* Springbank.wav */,
+				FC048F241F38ADF10000A9B6 /* St_Magdalene.wav */,
+				FC048F251F38ADF10000A9B6 /* Strathisla.wav */,
+				FC048F261F38ADF10000A9B6 /* Strathmill.wav */,
+				FC048F271F38ADF10000A9B6 /* Talisker.wav */,
+				FC048F281F38ADF10000A9B6 /* Tamdhu.wav */,
+				FC048F291F38ADF10000A9B6 /* Tamnavulin.wav */,
+				FC048F2A1F38ADF10000A9B6 /* Teaninich.wav */,
+				FC048F2B1F38ADF10000A9B6 /* Tomatin.wav */,
+				FC048F2C1F38ADF10000A9B6 /* Tomintoul.wav */,
+				FC048F2D1F38ADF10000A9B6 /* Tormore.wav */,
+				FC048F2E1F38ADF10000A9B6 /* Tullibardine.wav */,
+				FC048EC51F38ADDB0000A9B6 /* Glen_Rothes.wav */,
+				FC048EC61F38ADDB0000A9B6 /* Glen_Scotia.wav */,
+				FC048EC71F38ADDB0000A9B6 /* Glen_Spey.wav */,
+				FC048EC81F38ADDB0000A9B6 /* Glenallachie.wav */,
+				FC048EC91F38ADDB0000A9B6 /* Glenburgie.wav */,
+				FC048ECA1F38ADDB0000A9B6 /* Glencadam.wav */,
+				FC048ECB1F38ADDB0000A9B6 /* Glendronach.wav */,
+				FC048ECC1F38ADDB0000A9B6 /* Glendullan.wav */,
+				FC048ECD1F38ADDB0000A9B6 /* Glenesk.wav */,
+				FC048ECE1F38ADDB0000A9B6 /* Glenfarclas.wav */,
+				FC048ECF1F38ADDB0000A9B6 /* Glenfiddich.wav */,
+				FC048ED01F38ADDB0000A9B6 /* Glenglassaugh.wav */,
+				FC048ED11F38ADDB0000A9B6 /* Glengoyne.wav */,
+				FC048ED21F38ADDB0000A9B6 /* Glenkinchie.wav */,
+				FC048ED31F38ADDB0000A9B6 /* Glenlivet.wav */,
+				FC048ED41F38ADDB0000A9B6 /* Glenlochy.wav */,
+				FC048ED51F38ADDB0000A9B6 /* Glenlossie.wav */,
+				FC048ED61F38ADDB0000A9B6 /* Glenmorangie.wav */,
+				FC048ED71F38ADDB0000A9B6 /* Glentauchers.wav */,
+				FC048ED81F38ADDB0000A9B6 /* Glenturret.wav */,
+				FC048ED91F38ADDB0000A9B6 /* Glenugie.wav */,
+				FC048EDA1F38ADDB0000A9B6 /* Glenury_Royal.wav */,
+				FC048EDB1F38ADDB0000A9B6 /* Highland_Park.wav */,
+				FC048EDC1F38ADDB0000A9B6 /* Imperial.wav */,
+				FC048EDD1F38ADDB0000A9B6 /* Inchgower.wav */,
+				FC048EDE1F38ADDB0000A9B6 /* Jura.wav */,
+				FC048EDF1F38ADDB0000A9B6 /* Kininvie.wav */,
+				FC048EE01F38ADDB0000A9B6 /* Knockando.wav */,
+				FC048EE11F38ADDB0000A9B6 /* Knockdhu.wav */,
+				FC048EE21F38ADDB0000A9B6 /* Laphroaig.wav */,
+				FC048EE31F38ADDB0000A9B6 /* Ledaig.wav */,
+				FC048EE41F38ADDB0000A9B6 /* Linkwood.wav */,
+				FC048EE51F38ADDB0000A9B6 /* Littlemill.wav */,
+				FC048EE61F38ADDB0000A9B6 /* Lochside.wav */,
+				FC048EE71F38ADDB0000A9B6 /* Longmorn.wav */,
+				FC048EE81F38ADDB0000A9B6 /* Macallan.wav */,
+				FC048EE91F38ADDB0000A9B6 /* Mannochmore.wav */,
+				FC048EEA1F38ADDB0000A9B6 /* Millburn.wav */,
+				FC048EEB1F38ADDB0000A9B6 /* Miltonduff.wav */,
+				FC048EEC1F38ADDB0000A9B6 /* Mortlach.wav */,
+				FC048EED1F38ADDB0000A9B6 /* North_Port.wav */,
+				FC048EEE1F38ADDB0000A9B6 /* Oban.wav */,
+				FC048EEF1F38ADDB0000A9B6 /* Pittyvaich.wav */,
+				FC048EF01F38ADDB0000A9B6 /* Port_Ellen.wav */,
+				FC048E7F1F38ADB50000A9B6 /* Aberfeldy.wav */,
+				FC048E801F38ADB50000A9B6 /* Aberlour.wav */,
+				FC048E811F38ADB50000A9B6 /* Allt-a-Bhainne.wav */,
+				FC048E821F38ADB50000A9B6 /* Ardmore.wav */,
+				FC048E831F38ADB50000A9B6 /* Auchroisk.wav */,
+				FC048E841F38ADB50000A9B6 /* Aultmore.wav */,
+				FC048E851F38ADB50000A9B6 /* Balblair.wav */,
+				FC048E861F38ADB50000A9B6 /* Balmenach.wav */,
+				FC048E871F38ADB50000A9B6 /* Bowmore.wav */,
+				FC048E881F38ADB50000A9B6 /* Bruichladdich.wav */,
+				FC048E891F38ADB50000A9B6 /* Bunnahabhain.wav */,
+				FC048E8A1F38ADB50000A9B6 /* Caol_Ila.wav */,
+				FC048E8B1F38ADB50000A9B6 /* Caperdonich.wav */,
+				FC048E8C1F38ADB50000A9B6 /* Cardhu.wav */,
+				FC048E8D1F38ADB50000A9B6 /* Clynelish.wav */,
+				FC048E8E1F38ADB50000A9B6 /* Coleburn.wav */,
+				FC048E8F1F38ADB50000A9B6 /* Convalmore.wav */,
+				FC048E901F38ADB50000A9B6 /* Cragganmore.wav */,
+				FC048E911F38ADB50000A9B6 /* Craigellachie.wav */,
+				FC048E921F38ADB50000A9B6 /* Dailuaine.wav */,
+				FC048E931F38ADB50000A9B6 /* Dallas_Dhu.wav */,
+				FC048E941F38ADB50000A9B6 /* Dalmore.wav */,
+				FC048E951F38ADB50000A9B6 /* Dalwhinnie.wav */,
+				FC048E961F38ADB50000A9B6 /* Deanston.wav */,
+				FC048E971F38ADB50000A9B6 /* Dufftown.wav */,
+				FC048E981F38ADB50000A9B6 /* Edradour.wav */,
+				FC048E991F38ADB50000A9B6 /* Fettercairn.wav */,
+				FC048E9A1F38ADB50000A9B6 /* Glen_Deveron.wav */,
+				FC048E9B1F38ADB50000A9B6 /* Glen_Elgin.wav */,
+				FC048E9C1F38ADB50000A9B6 /* Glen_Garioch.wav */,
+				FC048E9D1F38ADB50000A9B6 /* Glen_Grant.wav */,
+				FC048E9E1F38ADB50000A9B6 /* Glen_Keith.wav */,
+				FC048E9F1F38ADB50000A9B6 /* Glen_Mhor.wav */,
+				FC048EA01F38ADB50000A9B6 /* Glen_Moray.wav */,
+				FC048EA11F38ADB50000A9B6 /* Glen_Ord.wav */,
+				FC048E7D1F38A79D0000A9B6 /* Lagavulin.wav */,
+			);
+			name = DistillerAudio;
+			sourceTree = "<group>";
+		};
+		FC048F431F38DC900000A9B6 /* Detailed Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC7227CC1F33C55B008094F3 /* SingleScotchDetail.swift */,
+				FC7227CE1F33C5A5008094F3 /* SingleDistillerDetail.swift */,
+				FC7227D01F33C5FA008094F3 /* SingleOwnerDetail.swift */,
+			);
+			name = "Detailed Views";
+			sourceTree = "<group>";
+		};
+		FC048F441F38DCC50000A9B6 /* Ratings */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA7E141F3532C2004F818C /* MyScotchRatingsVC.swift */,
+				FCFA7E181F354677004F818C /* MyScotchRatingCell.swift */,
+				FCFA7E1A1F365094004F818C /* RateScotchVC.swift */,
+			);
+			name = Ratings;
+			sourceTree = "<group>";
+		};
+		FC048F451F38DCE60000A9B6 /* Name Search */ = {
+			isa = PBXGroup;
+			children = (
+				FC45A2DB1F311FD900898C6D /* SelectScotchFromVC.swift */,
+				FC7227C41F338F00008094F3 /* ScotchCell.swift */,
+				FC7227C81F338F5B008094F3 /* DistilleryCell.swift */,
+				FC7227CA1F338F78008094F3 /* OwnerCell.swift */,
+			);
+			name = "Name Search";
+			sourceTree = "<group>";
+		};
+		FC45A2D81F310D5500898C6D /* Find-Rate */ = {
+			isa = PBXGroup;
+			children = (
+				FC45A2D91F310D7F00898C6D /* FindRateScotchVC.swift */,
+				FC048F451F38DCE60000A9B6 /* Name Search */,
+				FC048F411F38CCF20000A9B6 /* SearchByRegionVC.swift */,
+				FC048F4C1F3A3BB90000A9B6 /* ScotchesFromDistillerVC.swift */,
+				FC048F481F38F7FC0000A9B6 /* MyStatsVC.swift */,
+				FC048F431F38DC900000A9B6 /* Detailed Views */,
+				FC048F441F38DCC50000A9B6 /* Ratings */,
+			);
+			name = "Find-Rate";
+			sourceTree = "<group>";
+		};
+		FC5E02741F23BCDE00FA9D61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC5E02751F23BCDE00FA9D61 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC5E02771F23D7CA00FA9D61 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				FC5E027B1F23D96500FA9D61 /* FMDatabase.m */,
+				FC5E027C1F23D96500FA9D61 /* FMDatabaseAdditions.h */,
+				FC5E027D1F23D96500FA9D61 /* FMDatabaseAdditions.m */,
+				FC5E027E1F23D96500FA9D61 /* FMDatabasePool.h */,
+				FC5E027F1F23D96500FA9D61 /* FMDatabasePool.m */,
+				FC5E02801F23D96500FA9D61 /* FMDatabaseQueue.h */,
+				FC5E02811F23D96500FA9D61 /* FMDatabaseQueue.m */,
+				FC5E02821F23D96500FA9D61 /* FMDB.h */,
+				FC5E02831F23D96500FA9D61 /* FMResultSet.h */,
+				FC5E02841F23D96500FA9D61 /* FMResultSet.m */,
+				FC5E02791F23D93C00FA9D61 /* FMDatabase.h */,
+				FC5E027A1F23D96500FA9D61 /* CaskCompanion1-Bridging-Header.h */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		FC5E02981F27843100FA9D61 /* Glossary */ = {
+			isa = PBXGroup;
+			children = (
+				FC5E028C1F26502500FA9D61 /* GlossaryVC.swift */,
+				FC5E029F1F27C59500FA9D61 /* GlossaryCell.swift */,
+			);
+			name = Glossary;
+			sourceTree = "<group>";
+		};
+		FCACC1F81F1A9F6100D4C6C8 = {
+			isa = PBXGroup;
+			children = (
+				FC048E7C1F38A7750000A9B6 /* DistillerAudio */,
+				FCACC2031F1A9F6100D4C6C8 /* CaskCompanion1 */,
+				FCACC2021F1A9F6100D4C6C8 /* Products */,
+				FC5E02741F23BCDE00FA9D61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCACC2021F1A9F6100D4C6C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCACC2011F1A9F6100D4C6C8 /* CaskCompanion1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCACC2031F1A9F6100D4C6C8 /* CaskCompanion1 */ = {
+			isa = PBXGroup;
+			children = (
+				FC45A2D81F310D5500898C6D /* Find-Rate */,
+				FCF8B2361F294F4300ADF585 /* Whisky101 */,
+				FC5E02981F27843100FA9D61 /* Glossary */,
+				FC5E02771F23D7CA00FA9D61 /* FMDB */,
+				FCFE591A1F1D191E00D331A1 /* Supporting Files */,
+				FCACC2061F1A9F6100D4C6C8 /* ViewController.swift */,
+				FC048F4A1F39431B0000A9B6 /* DistillerMappingVC.swift */,
+				FC048F4E1F3A585E0000A9B6 /* RecommendationsVC.swift */,
+				FCACC2081F1A9F6100D4C6C8 /* Main.storyboard */,
+				FCFE591B1F1D19AE00D331A1 /* WhiskyModel.swift */,
+				FCFA7E161F354484004F818C /* DateHandler.swift */,
+				FC5E028A1F23DA7E00FA9D61 /* DBManager.swift */,
+			);
+			path = CaskCompanion1;
+			sourceTree = "<group>";
+		};
+		FCF8B2361F294F4300ADF585 /* Whisky101 */ = {
+			isa = PBXGroup;
+			children = (
+				FC5E028E1F265E7100FA9D61 /* Whisky101VC.swift */,
+				FCF047041F2BE34C002DB756 /* WhiskeyOrWhiskeyVC.swift */,
+				FCF047061F2BE43E002DB756 /* WhatIsSingleMaltVC.swift */,
+				FCF047081F2CFB05002DB756 /* MakingSingleMaltVC.swift */,
+				FCF0470A1F2D315C002DB756 /* ScotchRegionsVC.swift */,
+				FC45A2D31F2F919F00898C6D /* AboutTheColorVC.swift */,
+			);
+			name = Whisky101;
+			sourceTree = "<group>";
+		};
+		FCFE591A1F1D191E00D331A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCACC2101F1A9F6100D4C6C8 /* Info.plist */,
+				FCACC2041F1A9F6100D4C6C8 /* AppDelegate.swift */,
+				FCACC20D1F1A9F6100D4C6C8 /* LaunchScreen.storyboard */,
+				FCACC20B1F1A9F6100D4C6C8 /* Assets.xcassets */,
+				FC048E7A1F375CCB0000A9B6 /* TESTCCDB2.db */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCACC2001F1A9F6100D4C6C8 /* CaskCompanion1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCACC2131F1A9F6100D4C6C8 /* Build configuration list for PBXNativeTarget "CaskCompanion1" */;
+			buildPhases = (
+				FCACC1FD1F1A9F6100D4C6C8 /* Sources */,
+				FCACC1FE1F1A9F6100D4C6C8 /* Frameworks */,
+				FCACC1FF1F1A9F6100D4C6C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaskCompanion1;
+			productName = CaskCompanion1;
+			productReference = FCACC2011F1A9F6100D4C6C8 /* CaskCompanion1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCACC1F91F1A9F6100D4C6C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jon Cyrus";
+				TargetAttributes = {
+					FCACC2001F1A9F6100D4C6C8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9UZU7US9QK;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FCACC1FC1F1A9F6100D4C6C8 /* Build configuration list for PBXProject "CaskCompanion1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCACC1F81F1A9F6100D4C6C8;
+			productRefGroup = FCACC2021F1A9F6100D4C6C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCACC2001F1A9F6100D4C6C8 /* CaskCompanion1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCACC1FF1F1A9F6100D4C6C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC048EF81F38ADDB0000A9B6 /* Glendullan.wav in Resources */,
+				FC048F3F1F38ADF10000A9B6 /* Tormore.wav in Resources */,
+				FCACC20F1F1A9F6100D4C6C8 /* LaunchScreen.storyboard in Resources */,
+				FC048EAB1F38ADB50000A9B6 /* Bruichladdich.wav in Resources */,
+				FC048F171F38ADDB0000A9B6 /* Miltonduff.wav in Resources */,
+				FC048EBC1F38ADB50000A9B6 /* Fettercairn.wav in Resources */,
+				FC048F0A1F38ADDB0000A9B6 /* Jura.wav in Resources */,
+				FC048EA31F38ADB50000A9B6 /* Aberlour.wav in Resources */,
+				FC048EA91F38ADB50000A9B6 /* Balmenach.wav in Resources */,
+				FC048F001F38ADDB0000A9B6 /* Glenlochy.wav in Resources */,
+				FC048F3A1F38ADF10000A9B6 /* Tamdhu.wav in Resources */,
+				FC048EF21F38ADDB0000A9B6 /* Glen_Scotia.wav in Resources */,
+				FC048F0D1F38ADDB0000A9B6 /* Knockdhu.wav in Resources */,
+				FC048F0C1F38ADDB0000A9B6 /* Knockando.wav in Resources */,
+				FC048F341F38ADF10000A9B6 /* Speyburn.wav in Resources */,
+				FC048EB91F38ADB50000A9B6 /* Deanston.wav in Resources */,
+				FC048EA21F38ADB50000A9B6 /* Aberfeldy.wav in Resources */,
+				FC048F0B1F38ADDB0000A9B6 /* Kininvie.wav in Resources */,
+				FC048EAF1F38ADB50000A9B6 /* Cardhu.wav in Resources */,
+				FC048EA41F38ADB50000A9B6 /* Allt-a-Bhainne.wav in Resources */,
+				FC048EFA1F38ADDB0000A9B6 /* Glenfarclas.wav in Resources */,
+				FC048E7E1F38A79D0000A9B6 /* Lagavulin.wav in Resources */,
+				FC048EC41F38ADB50000A9B6 /* Glen_Ord.wav in Resources */,
+				FC048EB21F38ADB50000A9B6 /* Convalmore.wav in Resources */,
+				FC048F391F38ADF10000A9B6 /* Talisker.wav in Resources */,
+				FC048EB71F38ADB50000A9B6 /* Dalmore.wav in Resources */,
+				FC048EB11F38ADB50000A9B6 /* Coleburn.wav in Resources */,
+				FC048EF31F38ADDB0000A9B6 /* Glen_Spey.wav in Resources */,
+				FC048EB41F38ADB50000A9B6 /* Craigellachie.wav in Resources */,
+				FC048EC21F38ADB50000A9B6 /* Glen_Mhor.wav in Resources */,
+				FC048EB01F38ADB50000A9B6 /* Clynelish.wav in Resources */,
+				FC048F361F38ADF10000A9B6 /* St_Magdalene.wav in Resources */,
+				FC048F3D1F38ADF10000A9B6 /* Tomatin.wav in Resources */,
+				FC048F021F38ADDB0000A9B6 /* Glenmorangie.wav in Resources */,
+				FC048F1B1F38ADDB0000A9B6 /* Pittyvaich.wav in Resources */,
+				FC048EFB1F38ADDB0000A9B6 /* Glenfiddich.wav in Resources */,
+				FC048F371F38ADF10000A9B6 /* Strathisla.wav in Resources */,
+				FC048EB81F38ADB50000A9B6 /* Dalwhinnie.wav in Resources */,
+				FC048F351F38ADF10000A9B6 /* Springbank.wav in Resources */,
+				FC048F311F38ADF10000A9B6 /* Royal_Brackla.wav in Resources */,
+				FC048F301F38ADF10000A9B6 /* Rosebank.wav in Resources */,
+				FC048EBD1F38ADB50000A9B6 /* Glen_Deveron.wav in Resources */,
+				FC048EFE1F38ADDB0000A9B6 /* Glenkinchie.wav in Resources */,
+				FC048EBF1F38ADB50000A9B6 /* Glen_Garioch.wav in Resources */,
+				FC048F1C1F38ADDB0000A9B6 /* Port_Ellen.wav in Resources */,
+				FC048F0E1F38ADDB0000A9B6 /* Laphroaig.wav in Resources */,
+				FC048EBB1F38ADB50000A9B6 /* Edradour.wav in Resources */,
+				FC048EBE1F38ADB50000A9B6 /* Glen_Elgin.wav in Resources */,
+				FC048F091F38ADDB0000A9B6 /* Inchgower.wav in Resources */,
+				FC048EAD1F38ADB50000A9B6 /* Caol_Ila.wav in Resources */,
+				FC048EF71F38ADDB0000A9B6 /* Glendronach.wav in Resources */,
+				FCACC20C1F1A9F6100D4C6C8 /* Assets.xcassets in Resources */,
+				FC048F321F38ADF10000A9B6 /* Royal_Lochnagar.wav in Resources */,
+				FC048EA61F38ADB50000A9B6 /* Auchroisk.wav in Resources */,
+				FC048F131F38ADDB0000A9B6 /* Longmorn.wav in Resources */,
+				FC048F191F38ADDB0000A9B6 /* North_Port.wav in Resources */,
+				FC048EF51F38ADDB0000A9B6 /* Glenburgie.wav in Resources */,
+				FC048F3E1F38ADF10000A9B6 /* Tomintoul.wav in Resources */,
+				FC048EB61F38ADB50000A9B6 /* Dallas_Dhu.wav in Resources */,
+				FC048EFF1F38ADDB0000A9B6 /* Glenlivet.wav in Resources */,
+				FC048EB51F38ADB50000A9B6 /* Dailuaine.wav in Resources */,
+				FC048EFC1F38ADDB0000A9B6 /* Glenglassaugh.wav in Resources */,
+				FC048F121F38ADDB0000A9B6 /* Lochside.wav in Resources */,
+				FC048F3C1F38ADF10000A9B6 /* Teaninich.wav in Resources */,
+				FC048EAA1F38ADB50000A9B6 /* Bowmore.wav in Resources */,
+				FC048F2F1F38ADF10000A9B6 /* Pulteney.wav in Resources */,
+				FC048EC11F38ADB50000A9B6 /* Glen_Keith.wav in Resources */,
+				FC048EF11F38ADDB0000A9B6 /* Glen_Rothes.wav in Resources */,
+				FC048E7B1F375CCB0000A9B6 /* TESTCCDB2.db in Resources */,
+				FC048F111F38ADDB0000A9B6 /* Littlemill.wav in Resources */,
+				FC048F061F38ADDB0000A9B6 /* Glenury_Royal.wav in Resources */,
+				FC048F011F38ADDB0000A9B6 /* Glenlossie.wav in Resources */,
+				FC048EC01F38ADB50000A9B6 /* Glen_Grant.wav in Resources */,
+				FC048EAC1F38ADB50000A9B6 /* Bunnahabhain.wav in Resources */,
+				FC048EF91F38ADDB0000A9B6 /* Glenesk.wav in Resources */,
+				FC048EAE1F38ADB50000A9B6 /* Caperdonich.wav in Resources */,
+				FC048F071F38ADDB0000A9B6 /* Highland_Park.wav in Resources */,
+				FC048EA71F38ADB50000A9B6 /* Aultmore.wav in Resources */,
+				FC048EF41F38ADDB0000A9B6 /* Glenallachie.wav in Resources */,
+				FC048F141F38ADDB0000A9B6 /* Macallan.wav in Resources */,
+				FC048EF61F38ADDB0000A9B6 /* Glencadam.wav in Resources */,
+				FC048EBA1F38ADB50000A9B6 /* Dufftown.wav in Resources */,
+				FC048F051F38ADDB0000A9B6 /* Glenugie.wav in Resources */,
+				FC048F181F38ADDB0000A9B6 /* Mortlach.wav in Resources */,
+				FC048EA81F38ADB50000A9B6 /* Balblair.wav in Resources */,
+				FC048F401F38ADF10000A9B6 /* Tullibardine.wav in Resources */,
+				FC048EA51F38ADB50000A9B6 /* Ardmore.wav in Resources */,
+				FC048F381F38ADF10000A9B6 /* Strathmill.wav in Resources */,
+				FC048F151F38ADDB0000A9B6 /* Mannochmore.wav in Resources */,
+				FC048EB31F38ADB50000A9B6 /* Cragganmore.wav in Resources */,
+				FC048F3B1F38ADF10000A9B6 /* Tamnavulin.wav in Resources */,
+				FC048F1A1F38ADDB0000A9B6 /* Oban.wav in Resources */,
+				FCACC20A1F1A9F6100D4C6C8 /* Main.storyboard in Resources */,
+				FC048F0F1F38ADDB0000A9B6 /* Ledaig.wav in Resources */,
+				FC048F331F38ADF10000A9B6 /* Scapa.wav in Resources */,
+				FC048F081F38ADDB0000A9B6 /* Imperial.wav in Resources */,
+				FC048EFD1F38ADDB0000A9B6 /* Glengoyne.wav in Resources */,
+				FC048F031F38ADDB0000A9B6 /* Glentauchers.wav in Resources */,
+				FC048F041F38ADDB0000A9B6 /* Glenturret.wav in Resources */,
+				FC048F161F38ADDB0000A9B6 /* Millburn.wav in Resources */,
+				FC048EC31F38ADB50000A9B6 /* Glen_Moray.wav in Resources */,
+				FC048F101F38ADDB0000A9B6 /* Linkwood.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCACC1FD1F1A9F6100D4C6C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCACC2071F1A9F6100D4C6C8 /* ViewController.swift in Sources */,
+				FC048F491F38F7FC0000A9B6 /* MyStatsVC.swift in Sources */,
+				FCFA7E151F3532C2004F818C /* MyScotchRatingsVC.swift in Sources */,
+				FC45A2D41F2F919F00898C6D /* AboutTheColorVC.swift in Sources */,
+				FC048F4B1F39431B0000A9B6 /* DistillerMappingVC.swift in Sources */,
+				FC5E02881F23D96500FA9D61 /* FMDatabaseQueue.m in Sources */,
+				FC45A2DA1F310D7F00898C6D /* FindRateScotchVC.swift in Sources */,
+				FCFE591C1F1D19AE00D331A1 /* WhiskyModel.swift in Sources */,
+				FCF047091F2CFB05002DB756 /* MakingSingleMaltVC.swift in Sources */,
+				FC048F421F38CCF20000A9B6 /* SearchByRegionVC.swift in Sources */,
+				FCF0470B1F2D315C002DB756 /* ScotchRegionsVC.swift in Sources */,
+				FC7227C51F338F00008094F3 /* ScotchCell.swift in Sources */,
+				FCF047051F2BE34C002DB756 /* WhiskeyOrWhiskeyVC.swift in Sources */,
+				FC5E02851F23D96500FA9D61 /* FMDatabase.m in Sources */,
+				FC45A2DC1F311FD900898C6D /* SelectScotchFromVC.swift in Sources */,
+				FC7227CD1F33C55B008094F3 /* SingleScotchDetail.swift in Sources */,
+				FC5E028B1F23DA7E00FA9D61 /* DBManager.swift in Sources */,
+				FC5E02A01F27C59500FA9D61 /* GlossaryCell.swift in Sources */,
+				FC7227D11F33C5FA008094F3 /* SingleOwnerDetail.swift in Sources */,
+				FCFA7E1B1F365094004F818C /* RateScotchVC.swift in Sources */,
+				FC5E028D1F26502500FA9D61 /* GlossaryVC.swift in Sources */,
+				FC7227CF1F33C5A5008094F3 /* SingleDistillerDetail.swift in Sources */,
+				FC5E028F1F265E7100FA9D61 /* Whisky101VC.swift in Sources */,
+				FC7227C91F338F5B008094F3 /* DistilleryCell.swift in Sources */,
+				FCFA7E171F354484004F818C /* DateHandler.swift in Sources */,
+				FC048F4F1F3A585E0000A9B6 /* RecommendationsVC.swift in Sources */,
+				FC5E02871F23D96500FA9D61 /* FMDatabasePool.m in Sources */,
+				FCF047071F2BE43E002DB756 /* WhatIsSingleMaltVC.swift in Sources */,
+				FC5E02891F23D96500FA9D61 /* FMResultSet.m in Sources */,
+				FCACC2051F1A9F6100D4C6C8 /* AppDelegate.swift in Sources */,
+				FC5E02861F23D96500FA9D61 /* FMDatabaseAdditions.m in Sources */,
+				FCFA7E191F354677004F818C /* MyScotchRatingCell.swift in Sources */,
+				FC7227CB1F338F78008094F3 /* OwnerCell.swift in Sources */,
+				FC048F4D1F3A3BB90000A9B6 /* ScotchesFromDistillerVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCACC2081F1A9F6100D4C6C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCACC2091F1A9F6100D4C6C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCACC20D1F1A9F6100D4C6C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCACC20E1F1A9F6100D4C6C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCACC2111F1A9F6100D4C6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCACC2121F1A9F6100D4C6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCACC2141F1A9F6100D4C6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 9UZU7US9QK;
+				INFOPLIST_FILE = CaskCompanion1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joncyrus.com.CaskCompanion1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CaskCompanion1/CaskCompanion1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FCACC2151F1A9F6100D4C6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 9UZU7US9QK;
+				INFOPLIST_FILE = CaskCompanion1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joncyrus.com.CaskCompanion1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CaskCompanion1/CaskCompanion1-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCACC1FC1F1A9F6100D4C6C8 /* Build configuration list for PBXProject "CaskCompanion1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCACC2111F1A9F6100D4C6C8 /* Debug */,
+				FCACC2121F1A9F6100D4C6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCACC2131F1A9F6100D4C6C8 /* Build configuration list for PBXNativeTarget "CaskCompanion1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCACC2141F1A9F6100D4C6C8 /* Debug */,
+				FCACC2151F1A9F6100D4C6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCACC1F91F1A9F6100D4C6C8 /* Project object */;
+}
