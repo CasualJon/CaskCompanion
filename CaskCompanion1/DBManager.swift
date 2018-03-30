@@ -3,7 +3,7 @@
 //  CaskCompanion1
 //
 //  Created by Jonathan Cyrus on 7/22/17.
-//  Copyright © 2017 Jon Cyrus. All rights reserved.
+//  Copyright © 2018 Jon Cyrus. All rights reserved.
 //
 
 import Foundation
@@ -601,7 +601,9 @@ class DBManager: NSObject {
                 }
                 
                 if tmpIndx != i {
-                    swap(&scotches[i], &scotches[tmpIndx])
+                    //JDC - Compiler error w/ Swift4 & XCode9: "Overlapping accesses to 'scotches', but modification requires exclusive access; consider calling MutableCollection.swapAt(_:_:)
+                    //swap(&scotches[i], &scotches[tmpIndx])
+                    scotches.swapAt(i, tmpIndx)
                 }
             }
         }
@@ -621,7 +623,9 @@ class DBManager: NSObject {
                 }
                 
                 if tmpIndx != i {
-                    swap(&distilleries[i], &distilleries[tmpIndx])
+                    //JDC - Compiler error w/ Swift4 & XCode9: "Overlapping accesses to 'distilleries', but modification requires exclusive access; consider calling MutableCollection.swapAt(_:_:)
+                    //swap(&distilleries[i], &distilleries[tmpIndx])
+                    distilleries.swapAt(i, tmpIndx)
                 }
             }
         }
@@ -638,7 +642,9 @@ class DBManager: NSObject {
                 }
                 
                 if tmpIndx != i {
-                    swap(&owners[i], &owners[tmpIndx])
+                    //JDC - Compiler error w/ Swift4 & XCode9: "Overlapping accesses to 'owners', but modification requires exclusive access; consider calling MutableCollection.swapAt(_:_:)
+                    //swap(&owners[i], &owners[tmpIndx])
+                    owners.swapAt(i, tmpIndx)
                 }
             }
         }

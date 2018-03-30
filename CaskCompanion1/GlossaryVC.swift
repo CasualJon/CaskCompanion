@@ -3,7 +3,7 @@
 //  CaskCompanion1
 //
 //  Created by Jonathan Cyrus on 7/24/17.
-//  Copyright © 2017 Jon Cyrus. All rights reserved.
+//  Copyright © 2018 Jon Cyrus. All rights reserved.
 //
 
 import UIKit
