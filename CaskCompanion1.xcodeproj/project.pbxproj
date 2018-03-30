@@ -115,11 +115,6 @@
 		FC45A2DA1F310D7F00898C6D /* FindRateScotchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC45A2D91F310D7F00898C6D /* FindRateScotchVC.swift */; };
 		FC45A2DC1F311FD900898C6D /* SelectScotchFromVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC45A2DB1F311FD900898C6D /* SelectScotchFromVC.swift */; };
 		FC5E02761F23BCDE00FA9D61 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5E02751F23BCDE00FA9D61 /* libsqlite3.tbd */; };
-		FC5E02851F23D96500FA9D61 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5E027B1F23D96500FA9D61 /* FMDatabase.m */; };
-		FC5E02861F23D96500FA9D61 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5E027D1F23D96500FA9D61 /* FMDatabaseAdditions.m */; };
-		FC5E02871F23D96500FA9D61 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5E027F1F23D96500FA9D61 /* FMDatabasePool.m */; };
-		FC5E02881F23D96500FA9D61 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5E02811F23D96500FA9D61 /* FMDatabaseQueue.m */; };
-		FC5E02891F23D96500FA9D61 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5E02841F23D96500FA9D61 /* FMResultSet.m */; };
 		FC5E028B1F23DA7E00FA9D61 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E028A1F23DA7E00FA9D61 /* DBManager.swift */; };
 		FC5E028D1F26502500FA9D61 /* GlossaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E028C1F26502500FA9D61 /* GlossaryVC.swift */; };
 		FC5E028F1F265E7100FA9D61 /* Whisky101VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E028E1F265E7100FA9D61 /* Whisky101VC.swift */; };
@@ -135,6 +130,11 @@
 		FCACC20A1F1A9F6100D4C6C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCACC2081F1A9F6100D4C6C8 /* Main.storyboard */; };
 		FCACC20C1F1A9F6100D4C6C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCACC20B1F1A9F6100D4C6C8 /* Assets.xcassets */; };
 		FCACC20F1F1A9F6100D4C6C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCACC20D1F1A9F6100D4C6C8 /* LaunchScreen.storyboard */; };
+		FCB2EBF9206EB9A9005F9B43 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB2EBEE206EB9A8005F9B43 /* FMDatabase.m */; };
+		FCB2EBFA206EB9A9005F9B43 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB2EBF2206EB9A9005F9B43 /* FMResultSet.m */; };
+		FCB2EBFB206EB9A9005F9B43 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB2EBF3206EB9A9005F9B43 /* FMDatabasePool.m */; };
+		FCB2EBFC206EB9A9005F9B43 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB2EBF5206EB9A9005F9B43 /* FMDatabaseAdditions.m */; };
+		FCB2EBFD206EB9A9005F9B43 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB2EBF8206EB9A9005F9B43 /* FMDatabaseQueue.m */; };
 		FCF047051F2BE34C002DB756 /* WhiskeyOrWhiskeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF047041F2BE34C002DB756 /* WhiskeyOrWhiskeyVC.swift */; };
 		FCF047071F2BE43E002DB756 /* WhatIsSingleMaltVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF047061F2BE43E002DB756 /* WhatIsSingleMaltVC.swift */; };
 		FCF047091F2CFB05002DB756 /* MakingSingleMaltVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF047081F2CFB05002DB756 /* MakingSingleMaltVC.swift */; };
@@ -255,18 +255,7 @@
 		FC45A2D91F310D7F00898C6D /* FindRateScotchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindRateScotchVC.swift; sourceTree = "<group>"; };
 		FC45A2DB1F311FD900898C6D /* SelectScotchFromVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectScotchFromVC.swift; sourceTree = "<group>"; };
 		FC5E02751F23BCDE00FA9D61 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		FC5E02791F23D93C00FA9D61 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabase.h"; sourceTree = "<group>"; };
 		FC5E027A1F23D96500FA9D61 /* CaskCompanion1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CaskCompanion1-Bridging-Header.h"; sourceTree = "<group>"; };
-		FC5E027B1F23D96500FA9D61 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabase.m"; sourceTree = "<group>"; };
-		FC5E027C1F23D96500FA9D61 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabaseAdditions.h"; sourceTree = "<group>"; };
-		FC5E027D1F23D96500FA9D61 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabaseAdditions.m"; sourceTree = "<group>"; };
-		FC5E027E1F23D96500FA9D61 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabasePool.h"; sourceTree = "<group>"; };
-		FC5E027F1F23D96500FA9D61 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabasePool.m"; sourceTree = "<group>"; };
-		FC5E02801F23D96500FA9D61 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabaseQueue.h"; sourceTree = "<group>"; };
-		FC5E02811F23D96500FA9D61 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabaseQueue.m"; sourceTree = "<group>"; };
-		FC5E02821F23D96500FA9D61 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = "../../../Downloads/fmdb-master/src/fmdb/FMDB.h"; sourceTree = "<group>"; };
-		FC5E02831F23D96500FA9D61 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "../../../Downloads/fmdb-master/src/fmdb/FMResultSet.h"; sourceTree = "<group>"; };
-		FC5E02841F23D96500FA9D61 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "../../../Downloads/fmdb-master/src/fmdb/FMResultSet.m"; sourceTree = "<group>"; };
 		FC5E028A1F23DA7E00FA9D61 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		FC5E028C1F26502500FA9D61 /* GlossaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryVC.swift; sourceTree = "<group>"; };
 		FC5E028E1F265E7100FA9D61 /* Whisky101VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Whisky101VC.swift; sourceTree = "<group>"; };
@@ -284,6 +273,17 @@
 		FCACC20B1F1A9F6100D4C6C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCACC20E1F1A9F6100D4C6C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCACC2101F1A9F6100D4C6C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB2EBEE206EB9A8005F9B43 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		FCB2EBEF206EB9A8005F9B43 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		FCB2EBF0206EB9A8005F9B43 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		FCB2EBF1206EB9A9005F9B43 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		FCB2EBF2206EB9A9005F9B43 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		FCB2EBF3206EB9A9005F9B43 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		FCB2EBF4206EB9A9005F9B43 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		FCB2EBF5206EB9A9005F9B43 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		FCB2EBF6206EB9A9005F9B43 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		FCB2EBF7206EB9A9005F9B43 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		FCB2EBF8206EB9A9005F9B43 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
 		FCF047041F2BE34C002DB756 /* WhiskeyOrWhiskeyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiskeyOrWhiskeyVC.swift; sourceTree = "<group>"; };
 		FCF047061F2BE43E002DB756 /* WhatIsSingleMaltVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatIsSingleMaltVC.swift; sourceTree = "<group>"; };
 		FCF047081F2CFB05002DB756 /* MakingSingleMaltVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakingSingleMaltVC.swift; sourceTree = "<group>"; };
@@ -468,17 +468,17 @@
 		FC5E02771F23D7CA00FA9D61 /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
-				FC5E027B1F23D96500FA9D61 /* FMDatabase.m */,
-				FC5E027C1F23D96500FA9D61 /* FMDatabaseAdditions.h */,
-				FC5E027D1F23D96500FA9D61 /* FMDatabaseAdditions.m */,
-				FC5E027E1F23D96500FA9D61 /* FMDatabasePool.h */,
-				FC5E027F1F23D96500FA9D61 /* FMDatabasePool.m */,
-				FC5E02801F23D96500FA9D61 /* FMDatabaseQueue.h */,
-				FC5E02811F23D96500FA9D61 /* FMDatabaseQueue.m */,
-				FC5E02821F23D96500FA9D61 /* FMDB.h */,
-				FC5E02831F23D96500FA9D61 /* FMResultSet.h */,
-				FC5E02841F23D96500FA9D61 /* FMResultSet.m */,
-				FC5E02791F23D93C00FA9D61 /* FMDatabase.h */,
+				FCB2EBF0206EB9A8005F9B43 /* FMDatabase.h */,
+				FCB2EBEE206EB9A8005F9B43 /* FMDatabase.m */,
+				FCB2EBF4206EB9A9005F9B43 /* FMDatabaseAdditions.h */,
+				FCB2EBF5206EB9A9005F9B43 /* FMDatabaseAdditions.m */,
+				FCB2EBF7206EB9A9005F9B43 /* FMDatabasePool.h */,
+				FCB2EBF3206EB9A9005F9B43 /* FMDatabasePool.m */,
+				FCB2EBF1206EB9A9005F9B43 /* FMDatabaseQueue.h */,
+				FCB2EBF8206EB9A9005F9B43 /* FMDatabaseQueue.m */,
+				FCB2EBF6206EB9A9005F9B43 /* FMDB.h */,
+				FCB2EBEF206EB9A8005F9B43 /* FMResultSet.h */,
+				FCB2EBF2206EB9A9005F9B43 /* FMResultSet.m */,
 				FC5E027A1F23D96500FA9D61 /* CaskCompanion1-Bridging-Header.h */,
 			);
 			name = FMDB;
@@ -731,17 +731,18 @@
 				FCACC2071F1A9F6100D4C6C8 /* ViewController.swift in Sources */,
 				FC048F491F38F7FC0000A9B6 /* MyStatsVC.swift in Sources */,
 				FCFA7E151F3532C2004F818C /* MyScotchRatingsVC.swift in Sources */,
+				FCB2EBF9206EB9A9005F9B43 /* FMDatabase.m in Sources */,
 				FC45A2D41F2F919F00898C6D /* AboutTheColorVC.swift in Sources */,
 				FC048F4B1F39431B0000A9B6 /* DistillerMappingVC.swift in Sources */,
-				FC5E02881F23D96500FA9D61 /* FMDatabaseQueue.m in Sources */,
 				FC45A2DA1F310D7F00898C6D /* FindRateScotchVC.swift in Sources */,
 				FCFE591C1F1D19AE00D331A1 /* WhiskyModel.swift in Sources */,
 				FCF047091F2CFB05002DB756 /* MakingSingleMaltVC.swift in Sources */,
 				FC048F421F38CCF20000A9B6 /* SearchByRegionVC.swift in Sources */,
 				FCF0470B1F2D315C002DB756 /* ScotchRegionsVC.swift in Sources */,
+				FCB2EBFA206EB9A9005F9B43 /* FMResultSet.m in Sources */,
 				FC7227C51F338F00008094F3 /* ScotchCell.swift in Sources */,
+				FCB2EBFB206EB9A9005F9B43 /* FMDatabasePool.m in Sources */,
 				FCF047051F2BE34C002DB756 /* WhiskeyOrWhiskeyVC.swift in Sources */,
-				FC5E02851F23D96500FA9D61 /* FMDatabase.m in Sources */,
 				FC45A2DC1F311FD900898C6D /* SelectScotchFromVC.swift in Sources */,
 				FC7227CD1F33C55B008094F3 /* SingleScotchDetail.swift in Sources */,
 				FC5E028B1F23DA7E00FA9D61 /* DBManager.swift in Sources */,
@@ -754,12 +755,11 @@
 				FC7227C91F338F5B008094F3 /* DistilleryCell.swift in Sources */,
 				FCFA7E171F354484004F818C /* DateHandler.swift in Sources */,
 				FC048F4F1F3A585E0000A9B6 /* RecommendationsVC.swift in Sources */,
-				FC5E02871F23D96500FA9D61 /* FMDatabasePool.m in Sources */,
 				FCF047071F2BE43E002DB756 /* WhatIsSingleMaltVC.swift in Sources */,
-				FC5E02891F23D96500FA9D61 /* FMResultSet.m in Sources */,
 				FCACC2051F1A9F6100D4C6C8 /* AppDelegate.swift in Sources */,
-				FC5E02861F23D96500FA9D61 /* FMDatabaseAdditions.m in Sources */,
+				FCB2EBFC206EB9A9005F9B43 /* FMDatabaseAdditions.m in Sources */,
 				FCFA7E191F354677004F818C /* MyScotchRatingCell.swift in Sources */,
+				FCB2EBFD206EB9A9005F9B43 /* FMDatabaseQueue.m in Sources */,
 				FC7227CB1F338F78008094F3 /* OwnerCell.swift in Sources */,
 				FC048F4D1F3A3BB90000A9B6 /* ScotchesFromDistillerVC.swift in Sources */,
 			);
